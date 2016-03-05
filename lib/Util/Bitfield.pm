@@ -14,7 +14,7 @@ module Util::Bitfield:ver<0.0.1>:auth<github:jonathanstowe> {
 	    my $ret = (((1 +< $bits) - 1) +< ($word-size - ($bits + $start)));
 
         if $invert {
-            $ret = ((2^$word-size) - 1) +^ $ret;
+            $ret = ((2 ** $word-size) - 1) +^ $ret;
         }
 
         $ret;
