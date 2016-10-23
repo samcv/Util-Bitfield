@@ -2,6 +2,8 @@
 
 Utility subroutines for working with bitfields
 
+[![Build Status](https://travis-ci.org/jonathanstowe/Util-Bitfield.svg?branch=master)](https://travis-ci.org/jonathanstowe/Util-Bitfield)
+
 ## Synopsis
 
 ```
