@@ -6,7 +6,8 @@ Utility subroutines for working with bitfields
 
 ## Synopsis
 
-```
+```perl6
+
 use Util::Bitfield;
 
 my $number = 0b0001011101101010;
