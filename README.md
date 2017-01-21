@@ -46,18 +46,8 @@ within a larger integer as smaller integers.
 
 ## Installation
 
-Assuming you have a working perl6 installation you should be able to
-install this with *ufo* :
-
-    ufo
-    make test
-    make install
-
-*ufo* can be installed with *panda* for rakudo:
-
-    panda install ufo
-
-Or you can install directly with "panda":
+Assuming you have a working Rakudo Perl 6 installation you should be able to
+install this with *panda* :
 
     # From the source directory
    
@@ -67,7 +57,7 @@ Or you can install directly with "panda":
 
     panda install Util::Bitfield
 
-I haven't tried this with "zef" but I have no reason to think it
+I haven't tried this with *zef* but I have no reason to think it
 shouldn't work if you would rather use that.
 
 Other install mechanisms may be become available in the future.
@@ -76,10 +66,12 @@ Other install mechanisms may be become available in the future.
 
 Suggestions/patches are welcomed via github at
 
-   https://github.com/jonathanstowe/Util-Bitfield
+https://github.com/jonathanstowe/Util-Bitfield
 
 ## Licence
 
-Please see the LICENCE file in the distribution
+This is free software.
 
-(C) Jonathan Stowe 2016
+Please see the [LICENCE](LICENCE) file in the distribution
+
+© Jonathan Stowe 2016, 2017
